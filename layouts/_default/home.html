@@ -1,5 +1,5 @@
 {{ define "content" }}
-<h1>
+<h1>yes</h1>
 <main class="content{{ if .Params.page_css_class }} {{ $.Params.page_css_class }}{{ end }}">
     {{ range $section := .Params.sections }}
     {{ $include_dict := dict "section" $section "page" $ "Site" $.Site }}
